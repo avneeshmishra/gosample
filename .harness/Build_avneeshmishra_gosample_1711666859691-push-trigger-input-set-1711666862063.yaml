@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_avneeshmishra_gosample_1711666859691-push-trigger-input-set
+  identifier: Build_avneeshmishra_gosample_1711666859691pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: gosample
+  pipeline:
+    identifier: Build_avneeshmishra_gosample_1711666859691
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
