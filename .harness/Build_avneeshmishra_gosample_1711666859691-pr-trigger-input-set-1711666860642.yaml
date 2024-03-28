@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_avneeshmishra_gosample_1711666859691-pr-trigger-input-set
+  identifier: Build_avneeshmishra_gosample_1711666859691prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: gosample
+  pipeline:
+    identifier: Build_avneeshmishra_gosample_1711666859691
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
